@@ -17,13 +17,33 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #B6FBF3
   &-2
-    background-color: #FFFBE8
+    background-color: #FCEEB5
   &-3
-    background-color: #F0E9F6
+    background-color: #5C2C88
   &-4
-    background-color: #EAF8FD
+    background-color: #CDD9F7
+  &-5
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(220, 185, 252, 1) 35%, rgba(220, 185, 252, 1) 65%, rgba(255, 255, 255, 1) 100%)
+  &-6
+    background-color: #AA52F9 !important
+  &-7
+    background-color: #F6ECFE
+  &-8
+    background-color: #062678
+  &-9
+    background-color: #E5FDFA
+  &-10
+    background-color: #EDDBFD
+  &-11
+    background-color: #FEF9E5
+  &-12
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(205, 217, 247, 1) 35%, rgba(205, 217, 247, 1) 65%, rgba(255, 255, 255, 1) 100%)
+  &-13
+    background-color: #B4C6F4
+  &-14
+    background-color: #DCB9FC
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -31,6 +51,12 @@
   &-white
     background-color: #fff
 
+.bordes
+  border: 2px dashed #098576 !important
+  &-1
+    border: 2px dashed #866D08 !important
+  
+  
 .border-top
   &.color-primario
     border-top: 5px solid $color-primario !important
@@ -51,13 +77,16 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +126,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten(#5C2C88, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: #5C2C88 !important
   h4, i
-    color: #000 !important
+    color: #fff !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten(#5C2C88, 47%) !important
 
 
 .anexo__texto
@@ -225,5 +254,3 @@ th.bg-color-tabla
   color: #fff !important
 
 
-.bordes
-  border: 1px solid lightgray !important
