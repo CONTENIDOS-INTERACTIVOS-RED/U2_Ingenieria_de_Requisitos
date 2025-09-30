@@ -130,7 +130,7 @@ export default {
       referencia:
         'Sommerville, I. (2011). Ingeniería de software (9ª ed.). Pearson Educación de México.',
       link:
-        'https://gc.scalahded.com/recursos/files/r1617/w25469w/ingdelsoftwarelibro9_compressed.pdf',
+        'https://gc.scalahed.com/recursos/files/r161r/w24792w/IRADS/INGRequisitos.pdf#:~:text=Recurso%20Educativo%20Abierto%20en,de%20Ingenier%C3%ADa%20del%20Software',
     },
     {
       referencia:

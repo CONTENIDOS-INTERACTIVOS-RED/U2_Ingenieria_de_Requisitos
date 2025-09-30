@@ -96,7 +96,7 @@
       p.mb-5 A continuación, se presentan algunas diferencias fundamentales entre ambos tipos de requisitos:
   
       .titulo-figura.mb-4
-        h5 Tabla 3.
+        h5 Tabla 1.
         span Diferencias claves entre requisitos funcionales y no funcionales
       .tabla-a.color-acento-botones.mb-5
         table
